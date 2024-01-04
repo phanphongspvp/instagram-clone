@@ -4,6 +4,7 @@ import Home from "./pages/Home";
 import Explore from "./pages/Explore";
 import Reels from "./pages/Reels";
 import Inbox from "./pages/Inbox";
+import SignInOrSignUp from "./pages/SignInOrSignUp";
 
 function App() {
   return (
@@ -41,6 +42,7 @@ function App() {
             </LayOutMain>
           }
         />
+        <Route path="/signin" element={<SignInOrSignUp />} />
       </Routes>
     </Router>
   );
